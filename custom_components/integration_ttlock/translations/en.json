@@ -1,0 +1,32 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "TTlock Credentials",
+                "description": "Enter TTLock credentials. \n More info: https://github.com/nikolai5slo/integration_ttlock",
+                "data": {
+                    "server": "Server URL",
+                    "client_id": "Client ID",
+                    "client_secret": "Client Secret",
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "auth": "Username/Password is wrong."
+        },
+        "abort": {
+            "single_instance_allowed": "Only a single instance is allowed."
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "refresh_type": "Refresh Type"
+                }
+            }
+        }
+    }
+}
